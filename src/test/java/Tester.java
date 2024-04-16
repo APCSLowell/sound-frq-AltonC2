@@ -63,7 +63,7 @@ public class Tester {
       int [] answer  = new int[] {2532, 17, -2300, -17, -4000, 2000};
       for (int i = 0; i < answer.length; i++){
          String failMsg = "Test failed. Expected " + answer[i] + " at sample index " + i + ", but found " + temp.samples[i];
-         assertEquals( temp.samples[i], answer[i],failMsg,);
+         assertEquals(temp.samples[i], answer[i], failMsg);
       }
    }
 
@@ -75,7 +75,7 @@ public class Tester {
       int [] answer  = new int[] { 2532, 17, -2300, -17,0, 0, 0, -4000, 2000, 0, 0, 0};
       for (int i = 0; i < answer.length; i++){
          String failMsg = "Test failed. Expected " + answer[i] + " at sample index " + i + ", but found " + temp.samples[i];
-         assertEquals( temp.samples[i], answer[i],failMsg);
+         assertEquals(temp.samples[i], answer[i], failMsg);
       }
    }
 
@@ -87,7 +87,7 @@ public class Tester {
       int [] answer  = new int[] {1};
       for (int i = 0; i < answer.length; i++){
          String failMsg = "Test failed. Expected " + answer[i] + " at sample index " + i + ", but found " + temp.samples[i];
-         assertEquals( temp.samples[i], answer[i],failMsg);
+         assertEquals(temp.samples[i], answer[i], failMsg);
     }
    //Failed - Input {1} Expected Output <nothing> but samples should be {1}
 }
