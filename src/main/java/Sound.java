@@ -24,8 +24,8 @@ public class Sound
       samples[i] = -limit;
     count++;
     }
-    /* to be implemented in part (a) */
-    return 0;
+   
+    return count;
   }
 
 
